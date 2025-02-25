@@ -33,6 +33,11 @@ const config: Config = {
   ],
 
   themeConfig: {
+    algolia: {
+      appId: 'D7ECK21EJH',
+      apiKey: '0c17321a1812472cdbcd100c270d6c1d',
+      indexName: 'technotes_title',
+    },
     navbar: {
       title: 'TechNotes',
       logo: {
